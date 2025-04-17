@@ -4,6 +4,18 @@
   <meta charset="UTF-8">
   <title>Main Page</title>
   <style>
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn ease 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+</style>
+
     body {
       font-family: Arial, sans-serif;
       text-align: center;
